@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang cá nhân</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e6ccff, #ccf2ff);
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* BÊN TRÁI */
+        .left {
+            width: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left img {
+            width: 70%;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        /* BÊN PHẢI */
+        .right {
+            width: 75%;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #6a0dad;
+        }
+
+        h2 {
+            color: #0077b6;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .menu a {
+            display: inline-block;
+            margin-right: 15px;
+            text-decoration: none;
+            color: white;
+            background: #6a0dad;
+            padding: 8px 15px;
+            border-radius: 8px;
+        }
+
+        .menu a:hover {
+            background: #0077b6;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ẢNH -->
+    <div class="left">
+        <img src="../assets/img/anhchandung.jpg" alt="Ảnh chân dung">
+    </div>
+
+    <!-- NỘI DUNG -->
+    <div class="right"> 
+       
+ 	<!-- MENU -->
+        <div class="menu">
+            <a>Giới thiệu</a>
+            <a>Hoạt động</a>
+            <a>Thành tích</a>
+        </div>
+
+        <!-- GIỚI THIỆU -->
+        <div id="gioithieu" class="section">
+            <h1>Giới thiệu</h1>
+            <p>
+               Tôi tên là Phan Thúy Duy, 19 tuổi. Hiện tôi là con một và đang sinh sống cùng cha tại Hiếu Tử, Tập Ngãi, Vĩnh Long. Tôi 		       đang theo học ngành Công nghệ thông tin tại Trường Đại học Trà Vinh, lớp DA25TTA (MSSV: 110125043).
+            </p>
+        </div>
+
+        <!-- HOẠT ĐỘNG -->
+        <div id="hoatdong" class="section">
+            <h2>Hoạt động</h2>
+            <p>
+		Hiện tại, tôi đang nhận học bổng dành cho nữ sinh có hoàn cảnh khó khăn từ tổ chức Saigon Children. Tôi quan tâm đến lĩnh 		vực lập trình và thiết kế web cơ bản, đồng thời luôn nỗ lực rèn luyện và nâng cao kỹ năng mỗi ngày. Bên cạnh đó, tôi cũng 		tham gia câu lạc bộ môi trường tại trường để tích lũy thêm kinh nghiệm và kỹ năng mềm.	    
+	    </p>
+        </div>
+
+        <!-- THÀNH TÍCH -->
+        <div id="Thanhtich" class="section">
+            <h2>Thành tích</h2>
+            <p>
+                Hiện chưa có thành tích nổi bật, tuy nhiên tôi luôn cố gắng học tập và phát triển bản thân để đạt được kết quả tốt hơn    		trong tương lai.
+	    </p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
